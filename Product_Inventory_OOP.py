@@ -68,10 +68,6 @@ class purchase(store_data):
             temp.append(p)
             self.qty = temp
 
-
-
-
-
 data = purchase()
 data.get_products()
 data.get_price()
